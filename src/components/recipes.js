@@ -1,9 +1,11 @@
 import React from "react";
+import Recipe from "./recipe.js"
 
 export default function Recipes() {
     return (
         <div className="recipes">
-            <h1>Recipes</h1>
+            <Recipe/>
+            <Recipe/>
         </div>
     )
 }

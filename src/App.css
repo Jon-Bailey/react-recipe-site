@@ -13,7 +13,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: yellow;
+  background-color: #ffd900;
   padding: 20px;
 }
 
@@ -51,7 +51,21 @@
   height: calc(100vh - 130px);
 }
 
-/* Recipes */
+/* About */
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: calc(100vh - 130px);
+}
+
+/* Recipes Page */
 .recipes {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -65,9 +79,17 @@
   height: calc(100vh - 130px);
 }
 
+/* Recipe */
+.recipe-card {
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
 /* Footer */
 .footer {
-  background-color: yellow;
+  background-color: #ffd900;
   padding: 20px;
 }
 /*# sourceMappingURL=App.css.map */
